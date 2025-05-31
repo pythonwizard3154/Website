@@ -1,26 +1,55 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.header {
+    color: white;
+    font-family: calibri;
+    font-size: 5em;
+    padding-left: 50px
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background-color: #36454F;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    margin-left: 50px;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+
+
+
+.AboutMe {
+    color: white;
+    padding-left: 50px;
+    border: 3px solid white;
+    display: inline-block;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: #B0C4DE;
+    color: #2F4F4F;
+    font-size: 20px
+}
+
+.Contact {
+    color: white;
+    padding-left: 50px;
+    border: 3px solid white;
+    display: inline-block;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: #B0C4DE;
+    color: #2F4F4F;
+    font-size: 20px
 }
